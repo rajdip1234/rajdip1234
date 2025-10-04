@@ -1,0 +1,73 @@
+name: 🐍 RAJDIP Graph + Snake
+
+on:
+  workflow_dispatch:
+    inputs:
+      reset:
+        description: 'Reset repo history (true/false). Use true on first run if you want a clean start.'
+        required: false
+        default: 'false'
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 0 * * *" # daily midnight UTC
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository (full)
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Optional reset history (manual first run only)
+        if: ${{ github.event.inputs.reset == 'true' }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan temp_branch
+          git add -A
+          git commit -m "chore: reset history [skip ci]"
+          git branch -D main || true
+          git branch -m main
+          git push -f origin main
+
+      - name: Run RAJDIP script (creates commits)
+        env:
+          COMMITS_PER_BLOCK: '30'
+          TIMEZONE: 'Asia/Kolkata'
+        run: node index.js
+
+      - name: Generate GitHub Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#ffd0f5,#ff8ed0,#ff4fa0,#ff2f80,#ff1a5f
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy snake files to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: true
+          commit_message: "🐍 + RAJDIP Graph Updated [skip ci]"
