@@ -1,0 +1,24 @@
+{
+  "name": "rajdip1234",
+  "version": "1.0.0",
+  "description": "GitHub contribution graph automation for RAJDIP + Snake",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "preview": "DRY_RUN=true node index.js"
+  },
+  "dependencies": {
+    "jsonfile": "^6.2.0",
+    "moment-timezone": "^0.5.48",
+    "simple-git": "^3.28.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajdip1234/rajdip1234.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rajdip1234/rajdip1234/issues"
+  },
+  "homepage": "https://github.com/rajdip1234/rajdip1234#readme"
+}
