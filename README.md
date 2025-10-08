@@ -26,6 +26,34 @@
 </div>
 
 ---
+<div align="center">
+
+<table style="border:2px solid #ccc; border-collapse:collapse; width:80%; margin:auto; table-layout:fixed;">
+  <tr>
+    <!-- Left column: text -->
+    <td valign="top" style="border:2px solid #ccc; padding:15px; width:60%;">
+
+<img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" alt="wave" />
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Freelancing%2C+Coding+%26+GitHub+Sponsor+Profiles)](https://git.io/typing-svg)
+
+### 🌟 **Freelancing , Coding & GitHub Sponsor Profiles**
+- 📊 Freelancing Profile: 
+- 🔍 Codeing Profile:
+- ☁️ GitHub Sponsor Profile:
+
+    </td>
+
+    <!-- Right column: image -->
+    <td align="center" valign="top" style="border:2px solid #ccc; padding:15px; width:40%;">
+      <img src="intro-gif.gif" alt="Rajdip Headshot" width="220" style="border-radius:50%; object-fit:cover; height:220px;" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
 
 <div align="center">
 
@@ -111,6 +139,7 @@
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajdip1234&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
 <img src="https://github-readme-stats.vercel.app/api?username=rajdip1234&theme=dark&hide_border=false&include_all_commits=true&count_private=true" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajdip1234&theme=dark&hide_border=false" />
+
 
 ---
 
