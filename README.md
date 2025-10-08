@@ -11,7 +11,7 @@
 
 ### 🌟 **Data Analyst | Full Stack Developer**
 - 📊 Full stack dev (4+ yrs) & entry-level data analyst skilled in
-- Python, SQL & ML.  
+ Python, SQL & ML.  
 - 🔍 Passionate about building scalable, data-driven solutions.  
 - ☁️ Experienced in deploying apps to the cloud (AWS)
 
