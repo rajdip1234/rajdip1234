@@ -19,7 +19,7 @@
 
     <!-- Right column: image -->
     <td align="center" valign="top" style="border:2px solid #ccc; padding:15px; width:40%;">
-      <img src="/img/profile-headshot.png" alt="Rajdip Headshot" width="220" style="border-radius:50%; object-fit:cover; height:220px;" />
+      <img src="./img/profile-headshot.png" alt="Rajdip Headshot" width="220" style="border-radius:50%; object-fit:cover; height:220px;" />
     </td>
   </tr>
 </table>
