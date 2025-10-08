@@ -10,7 +10,8 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hey+there%2C+I+am+Rajdip+Biswas)](https://git.io/typing-svg)
 
 ### 🌟 **Data Analyst | Full Stack Developer**
-- 📊 Full stack dev (4+ yrs) & entry-level data analyst skilled in Python, SQL & ML.  
+- 📊 Full stack dev (4+ yrs) & entry-level data analyst skilled in
+- Python, SQL & ML.  
 - 🔍 Passionate about building scalable, data-driven solutions.  
 - ☁️ Experienced in deploying apps to the cloud (AWS)
 
