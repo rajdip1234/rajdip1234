@@ -141,8 +141,8 @@
 <img src="https://github-readme-stats.vercel.app/api?username=rajdip1234&theme=dark&hide_border=false&include_all_commits=true&count_private=true" />
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajdip1234&theme=dark&hide_border=false" />
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=rajdip1234&theme=cyber-streakglow)](https://git.io/streak-stats)
-<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=rajdip1234&theme=cyber-streakglow" alt="GitHub Streak" /></a>
+[![GitHub Streak](https://streak-stats.demolab.com?user=rajdip1234&theme=cyber-glow)](https://git.io/streak-stats)
+
 ---
 
 ### 🐍 GitHub Contribution Snake 🐍
