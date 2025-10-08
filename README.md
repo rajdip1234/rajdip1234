@@ -142,6 +142,7 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajdip1234&theme=dark&hide_border=false" />
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=rajdip1234&theme=cyber-streakglow)](https://git.io/streak-stats)
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=rajdip1234&theme=cyber-streakglow" alt="GitHub Streak" /></a>
 ---
 
 ### 🐍 GitHub Contribution Snake 🐍
