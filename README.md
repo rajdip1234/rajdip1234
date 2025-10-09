@@ -31,7 +31,7 @@
       <ul>
         <li>💼 <b>Freelancing:</b> 
           <a href="https://www.upwork.com/freelancers/~01ac4afefaec619300/" target="_blank">Upwork</a> /
-          <a href="https://va.hyi.ai/public-profile/6860d5fae3dbe97ca36bc639/" target="_blank">HYI.AI</a><a href="https://app.tribes.agency/my-profile/" target="_blank">Tribes</a><a href="https://developers.turing.com/dashboard/finalize_my_resume/" target="_blank">Turing</a><a href="https://platform.soulhq.ai/profile/" target="_blank">SOUL.AI</a>
+          <a href="https://va.hyi.ai/public-profile/6860d5fae3dbe97ca36bc639/" target="_blank">HYI.AI</a>/<a href="https://app.tribes.agency/my-profile/" target="_blank">Tribes</a>/<a href="https://developers.turing.com/dashboard/finalize_my_resume/" target="_blank">Turing</a>/<a href="https://platform.soulhq.ai/profile/" target="_blank">SOUL.AI</a>
         </li>
         <li>💻 <b>Coding:</b> 
           <a href="https://leetcode.com/" target="_blank">LeetCode</a> /
