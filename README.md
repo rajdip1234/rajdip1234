@@ -18,7 +18,6 @@
 </table>
 
 ---
-
 ## 🚀 Freelancing, Coding & Sponsors
 
 <table>
@@ -100,14 +99,14 @@
 </div>
 
 ---
-
 ## 🐍 **Contribution Snake**🐍
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/rajdip1234/rajdip1234/output/github-snake.svg#gh-light-mode-only" />
   <img src="https://raw.githubusercontent.com/rajdip1234/rajdip1234/output/github-snake-dark.svg#gh-dark-mode-only" />
 </div>
----
+<hr>
+
 ## 🌍 **Connect With Me**
 
 <p align="center">
