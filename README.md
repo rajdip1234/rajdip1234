@@ -86,17 +86,30 @@
 
 ## 📊 **GitHub Analytics**
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rajdip1234&show_icons=true&theme=ambient_gradient&hide_border=false" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajdip1234&layout=compact&theme=ambient_gradient&hide_border=false" width="48%" />
-</div>
+<!-- GitHub Stats & Most Used Languages -->
+<table align="center" width="100%" style="table-layout: fixed; margin-bottom: 20px;">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=rajdip1234&show_icons=true&theme=ambient_gradient&hide_border=false" width="100%" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajdip1234&layout=compact&theme=ambient_gradient&hide_border=false" width="100%" />
+    </td>
+  </tr>
+</table>
 
-<br/>
+<!-- Streak & Activity Graph -->
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajdip1234&theme=ambient-gradient&hide_border=false" width="100%" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajdip1234&theme=ambient-gradient&hide_border=false" width="100%" />
+    </td>
+  </tr>
+</table>
 
-<!-- Alternative to streak stats -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajdip1234&theme=ambient-gradient&hide_border=false" width="97%" alt="GitHub Activity Graph"/>
-</div>
 
 ---
 ## 🐍 **Contribution Snake**🐍
