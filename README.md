@@ -37,7 +37,7 @@
           <a href="https://www.hackerrank.com/profile/rajdippharma1989/" target="_blank">HackerRank</a> / <a href="https://codesignal.com/learn/profile/clyo41nuw00b9106squukrp6i/" target="_blank">CodeSignal</a> / <a href="https://www.hackerearth.com/@rajdippharma1989//" target="_blank">HackerEarth</a>
         </li>
         <li>❤️ <b>Sponsor:</b> 
-          <a href="https://github.com/sponsors/" target="_blank">GitHub Sponsors</a>
+          <a href="https://github.com/sponsors/rajdip1234/" target="_blank">GitHub Sponsors</a>
         </li>
       </ul>
     </td>
