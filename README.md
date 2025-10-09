@@ -99,10 +99,11 @@
 </table>
 
 <!-- Streak & Activity Graph -->
-<table align="center" width="100%">
+<table align="center" width="100%" style="table-layout: fixed; margin-bottom: 20px;">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=rajdip1234&theme=ambient-gradient&hide_border=false" width="100%" />
+      <!-- Updated Streak Stats with ambient-gradient -->
+      <img src="https://nirzak-streak-stats.vercel.app/?user=rajdip1234&theme=ambient_gradient&hide_border=false" width="100%" />
     </td>
     <td width="50%" align="center">
       <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajdip1234&theme=ambient-gradient&hide_border=false" width="100%" />
