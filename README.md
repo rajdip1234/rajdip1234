@@ -4,7 +4,9 @@
     <td width="30%" align="center">
       <img src="./img/profile-headshot.png" alt="Profile" width="170" style="border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.15);" />
     </td>
-    <td width="70%" valign="top">
+    <td width="70%" valign="top"><img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" alt="wave" />
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hey+there%2C+I+am+Rajdip+Biswas)](https://git.io/typing-svg)
       <h3>🌟 <b>Data Analyst | Full Stack Developer</b></h3>
       <ul>
         <li>📊 Full stack dev (4+ yrs) & entry-level data analyst skilled in <b>Python, SQL & ML</b>.</li>
@@ -102,8 +104,7 @@
 ## 🌍 **Connect With Me**
 
 <p align="center">
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail" /></a>
-  <a href="https://www.linkedin.com/in/rajdip1234/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" /></a>
-  <a href="https://x.com/rajdip1234"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x" /></a>
-  <a href="https://www.youtube.com/c/rajdip1234"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube" /></a>
+  <a href="mailto:rajdippharma1989@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail" /></a>
+  <a href="https://www.linkedin.com/in/dbrtechnopharma/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" /></a>
+  <a href="https://discord.com/users/1024966115669069836"><img src="https://img.shields.io/badge/Discord-000000?style=for-the-badge&logo=discord" /></a>
 </p>
