@@ -33,8 +33,8 @@
           <a href="https://va.hyi.ai/public-profile/6860d5fae3dbe97ca36bc639/" target="_blank">HYI.AI</a>/<a href="https://app.tribes.agency/my-profile/" target="_blank">Tribes</a>/<a href="https://developers.turing.com/dashboard/finalize_my_resume/" target="_blank">Turing</a>/<a href="https://platform.soulhq.ai/profile/" target="_blank">SOUL.AI</a>
         </li>
         <li>💻 <b>Coding:</b> 
-          <a href="https://leetcode.com/" target="_blank">LeetCode</a> /
-          <a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>
+          <a href="https://leetcode.com/u/dbrtechnopharma/" target="_blank">LeetCode</a> /
+          <a href="https://www.hackerrank.com/profile/rajdippharma1989/" target="_blank">HackerRank</a> / <a href="https://codesignal.com/learn/profile/clyo41nuw00b9106squukrp6i/" target="_blank">CodeSignal</a> / <a href="https://www.hackerearth.com/@rajdippharma1989//" target="_blank">HackerEarth</a>
         </li>
         <li>❤️ <b>Sponsor:</b> 
           <a href="https://github.com/sponsors/" target="_blank">GitHub Sponsors</a>
