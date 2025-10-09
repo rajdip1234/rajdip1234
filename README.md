@@ -22,37 +22,23 @@
 <table>
   <tr>
     <td width="30%" align="center">
-      <img src="./img/intro-gif.gif" alt="Freelancing GIF" width="220" style="border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.1);" />
+      <img src="./img/intro-gif.gif" alt="Freelancing GIF" width="220" style="border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.15);" />
     </td>
     <td width="70%" valign="top">
       <h3>💼 Freelancing | 💻 Coding | ❤️ Sponsors</h3>
-
-      <table>
-        <tr>
-          <th align="left">Category</th>
-          <th align="left">Platforms</th>
-        </tr>
-        <tr>
-          <td>💼 Freelancing</td>
-          <td>
-            <a href="https://www.upwork.com/" target="_blank">Upwork</a> &nbsp;|&nbsp;
-            <a href="https://www.fiverr.com/" target="_blank">Fiverr</a>
-          </td>
-        </tr>
-        <tr>
-          <td>💻 Coding</td>
-          <td>
-            <a href="https://leetcode.com/" target="_blank">LeetCode</a> &nbsp;|&nbsp;
-            <a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>
-          </td>
-        </tr>
-        <tr>
-          <td>❤️ Sponsors</td>
-          <td>
-            <a href="https://github.com/sponsors/" target="_blank">GitHub Sponsors</a>
-          </td>
-        </tr>
-      </table>
+      <ul>
+        <li>💼 <b>Freelancing:</b> 
+          <a href="https://www.upwork.com/" target="_blank">Upwork</a> /
+          <a href="https://www.fiverr.com/" target="_blank">Fiverr</a>
+        </li>
+        <li>💻 <b>Coding:</b> 
+          <a href="https://leetcode.com/" target="_blank">LeetCode</a> /
+          <a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>
+        </li>
+        <li>❤️ <b>Sponsor:</b> 
+          <a href="https://github.com/sponsors/" target="_blank">GitHub Sponsors</a>
+        </li>
+      </ul>
     </td>
   </tr>
 </table>
