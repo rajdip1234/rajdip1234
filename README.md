@@ -1,10 +1,10 @@
 <!-- 👋 Intro Section -->
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px;">
 
-  <img src="./img/profile-headshot.png" alt="Profile" width="160" style="border-radius: 50%; box-shadow: 0 0 8px rgba(0,0,0,0.15);" />
+  <img src="./img/profile-headshot.png" alt="Profile" width="170" style="border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.2);" />
 
   <div style="max-width: 500px; text-align: left;">
-    <h3 align="center">🌟 <b>Data Analyst | Full Stack Developer</b></h3>
+    <h3>🌟 <b>Data Analyst | Full Stack Developer</b></h3>
     <ul>
       <li>📊 Full stack dev (4+ yrs) & entry-level data analyst skilled in <b>Python, SQL & ML</b>.</li>
       <li>🔍 Passionate about building scalable, data-driven solutions.</li>
@@ -20,10 +20,10 @@
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px;">
 
-  <img src="./img/intro-gif.gif" alt="Freelancing GIF" width="200" style="border-radius: 12px;" />
+  <img src="./img/intro-gif.gif" alt="Freelancing GIF" width="220" style="border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.15);" />
 
   <div style="max-width: 500px;">
-    <h3 align="center">💼 Freelancing | 💻 Coding | ❤️ Sponsors</h3>
+    <h3>💼 Freelancing | 💻 Coding | ❤️ Sponsors</h3>
 
   | Category | Link |
   |-----------|------|
@@ -39,9 +39,9 @@
 ## 🛠️ **Tech Stack & Tools**
 
 #### 💻 Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php)
 
 #### 🤖 Data Science & ML
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
@@ -67,7 +67,7 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions)
 
 #### 🌐 Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
@@ -112,13 +112,11 @@
 ## 📊 **GitHub Analytics**
 
 <div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=rajdip1234&show_icons=true&theme=tokyonight&hide_border=false" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajdip1234&layout=compact&theme=tokyonight&hide_border=false" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=rajdip1234&show_icons=true&theme=ambient_gradient&hide_border=false" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajdip1234&layout=compact&theme=ambient_gradient&hide_border=false" width="48%" />
   
   <br/>
-  <img src="https://streak-stats.demolab.com?user=rajdip1234&theme=tokyonight&hide_border=false" width="97%" />
-
+  <img src="https://streak-stats.demolab.com?user=rajdip1234&theme=ambient_gradient&hide_border=false" width="97%" />
 </div>
 
 ---
@@ -126,10 +124,8 @@
 ## 🐍 **Contribution Snake**
 
 <div align="center">
-
-![GitHub Snake Light](https://raw.githubusercontent.com/rajdip1234/rajdip1234/output/github-snake.svg#gh-light-mode-only)
-![GitHub Snake Dark](https://raw.githubusercontent.com/rajdip1234/rajdip1234/output/github-snake-dark.svg#gh-dark-mode-only)
-
+  <img src="https://raw.githubusercontent.com/rajdip1234/rajdip1234/output/github-snake.svg#gh-light-mode-only" />
+  <img src="https://raw.githubusercontent.com/rajdip1234/rajdip1234/output/github-snake-dark.svg#gh-dark-mode-only" />
 </div>
 
 ---
@@ -137,7 +133,7 @@
 ## 🌍 **Connect With Me**
 
 <p align="center">
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail" /></a>
   <a href="https://www.linkedin.com/in/rajdip1234/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin" /></a>
   <a href="https://x.com/rajdip1234"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x" /></a>
   <a href="https://www.youtube.com/c/rajdip1234"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube" /></a>
