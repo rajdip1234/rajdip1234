@@ -27,11 +27,32 @@
     <td width="70%" valign="top">
       <h3>💼 Freelancing | 💻 Coding | ❤️ Sponsors</h3>
 
-      | Category | Link |
-      |-----------|------|
-      | 💼 Freelancing | [Upwork](#) / [Fiverr](#) |
-      | 💻 Coding      | [LeetCode](#) / [HackerRank](#) |
-      | ❤️ Sponsor    | [GitHub Sponsors](#) |
+      <table>
+        <tr>
+          <th align="left">Category</th>
+          <th align="left">Platforms</th>
+        </tr>
+        <tr>
+          <td>💼 Freelancing</td>
+          <td>
+            <a href="https://www.upwork.com/" target="_blank">Upwork</a> &nbsp;|&nbsp;
+            <a href="https://www.fiverr.com/" target="_blank">Fiverr</a>
+          </td>
+        </tr>
+        <tr>
+          <td>💻 Coding</td>
+          <td>
+            <a href="https://leetcode.com/" target="_blank">LeetCode</a> &nbsp;|&nbsp;
+            <a href="https://www.hackerrank.com/" target="_blank">HackerRank</a>
+          </td>
+        </tr>
+        <tr>
+          <td>❤️ Sponsors</td>
+          <td>
+            <a href="https://github.com/sponsors/" target="_blank">GitHub Sponsors</a>
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
@@ -81,17 +102,13 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=rajdip1234&show_icons=true&theme=ambient_gradient&hide_border=false" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajdip1234&layout=compact&theme=ambient_gradient&hide_border=false" width="48%" />
-  <br/>
-  <img src="https://streak-stats.demolab.com?user=rajdip1234&theme=ambient_gradient&hide_border=false" width="97%" />
 </div>
 
----
+<br/>
 
-## 🐍 **Contribution Snake**
-
+<!-- Alternative to streak stats -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/rajdip1234/rajdip1234/output/github-snake.svg#gh-light-mode-only" />
-  <img src="https://raw.githubusercontent.com/rajdip1234/rajdip1234/output/github-snake-dark.svg#gh-dark-mode-only" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajdip1234&theme=ambient-gradient&hide_border=false" width="97%" alt="GitHub Activity Graph"/>
 </div>
 
 ---
