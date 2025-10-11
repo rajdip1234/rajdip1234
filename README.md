@@ -2,7 +2,7 @@
 <table>
   <tr>
     <td width="30%" align="center">
-      <img src="./img/profile-headshot.png" alt="Profile" width="170" style="border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.15);" />
+      <img src="./img/profile-headshot2.png" alt="Profile" width="170" style="border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.15);" />
     </td>
     <td width="70%" valign="top"><img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" alt="wave" />
 
@@ -38,6 +38,8 @@
         </li>
         <li>❤️ <b>Sponsor:</b> 
           <a href="https://github.com/sponsors/rajdip1234/" target="_blank">GitHub Sponsors</a>
+        </li><li>❤️ <b>GitHub Resume:</b> 
+          <a href="https://rajdip1234.github.io/git-resume/" target="_blank">GitHub Sponsors</a>
         </li>
       </ul>
     </td>
