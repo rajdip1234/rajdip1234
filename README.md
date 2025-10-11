@@ -39,7 +39,7 @@
         <li>❤️ <b>Sponsor:</b> 
           <a href="https://github.com/sponsors/rajdip1234/" target="_blank">GitHub Sponsors</a>
         </li><li> 🎒 <b>GitHub Resume:</b> 
-          <a href="https://rajdip1234.github.io/git-resume/" target="_blank">GitHub Sponsors</a>
+          <a href="https://rajdip1234.github.io/git-resume/" target="_blank">GitHub Resume</a>
         </li>
       </ul>
     </td>
