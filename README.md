@@ -1,14 +1,23 @@
 <!-- 👋 Intro Section -->
-<table>
+<table width="100%" style="table-layout: fixed;">
   <tr>
-    <td width="30%" align="center">
-      <img src="./img/profile-headshot2.png" alt="Profile" width="170" style="border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.15);" />
+    <td width="30%" align="center" style="vertical-align: top;">
+      <img src="./img/profile-headshot2.png" 
+           alt="Profile" 
+           width="180"
+           style="border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.15); max-width: 100%; height: auto;" />
     </td>
-    <td width="70%" valign="top"><img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" alt="wave" />
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hey+there%2C+I+am+Rajdip+Biswas)](https://git.io/typing-svg)
+    <td width="70%" valign="top" style="vertical-align: top;">
+      <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" 
+           alt="wave" 
+           width="35" 
+           style="vertical-align: middle;"/>
+      <br/>
+      <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hey+there%2C+I+am+Rajdip+Biswas" alt="Typing SVG" />
+      </a>
       <h3>🌟 <b>Data Analyst | Full Stack Developer</b></h3>
-      <ul>
+      <ul style="margin-top: 8px; padding-left: 18px;">
         <li>📊 Full stack dev (4+ yrs) & entry-level data analyst skilled in <b>Python, SQL & ML</b>.</li>
         <li>🔍 Passionate about building scalable, data-driven solutions.</li>
         <li>☁️ Experienced in deploying apps to the cloud (<b>AWS</b>).</li>
