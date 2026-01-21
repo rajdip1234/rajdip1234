@@ -85,21 +85,23 @@ const LETTERS = {
     [0,1,1,0]
   ],
   W: [
-    [1,0,0,1],
-    [1,0,0,1],
-    [1,0,0,1],
-    [1,0,1,1],
-    [1,1,0,1],
-    [1,1,0,1],
-    [1,0,0,1]
-  ]
+  [1,0,1],
+  [1,0,1],
+  [1,0,1],
+  [1,1,1],
+  [1,1,1],
+  [1,0,1],
+  [1,0,1]
+]
+
 };
 
 // Name with space marker
-const TEXT = ["R","A","J","D","I","P"," ","B","I","S","W","A","S"];
+const TEXT = ["R","A","J","D","I","P","B","I","S","W","A","S"];
 
 // Compute width safely
-const widthOf = ch => (ch === " " ? 1 : LETTERS[ch][0].length);
+const widthOf = ch => (ch === " " ? 0 : LETTERS[ch][0].length);
+
 const textWidth = TEXT.reduce((s, c) => s + widthOf(c), 0);
 
 // Center text
