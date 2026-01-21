@@ -73,21 +73,21 @@ jobs:
           #echo "✅ Repository history reset complete."
 
       # ▶️ Commit generation runs ONLY when explicitly requested
-      - name: 🧠 Run RAJDIP script (creates commits)
-        if: ${{ github.event.inputs.generate == 'true' }}
-        env:
-          COMMITS_PER_BLOCK: '100'
-          TIMEZONE: 'Asia/Kolkata'
-        run: |
-          cd code
-          node index.js
+      #- name: 🧠 Run RAJDIP script (creates commits)
+        #if: ${{ github.event.inputs.generate == 'true' }}
+        #env:
+          #COMMITS_PER_BLOCK: '100'
+          #TIMEZONE: 'Asia/Kolkata'
+        #run: |
+          #cd code
+          #node index.js
 
-      - name: 📤 Commit & push generated commits
-        if: ${{ github.event.inputs.generate == 'true' }}
-        run: |
-          git add .
-          git commit -m "📊 Auto-generate commits for RAJDIP graph" || echo "No changes to commit"
-          git push origin main
+      #- name: 📤 Commit & push generated commits
+        #if: ${{ github.event.inputs.generate == 'true' }}
+        #run: |
+          #git add .
+          #git commit -m "📊 Auto-generate commits for RAJDIP graph" || echo "No changes to commit"
+          #git push origin main
 
       - name: 🐍 Generate GitHub Contribution Snake
         uses: Platane/snk@v3
