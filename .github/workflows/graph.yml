@@ -1,0 +1,112 @@
+name: 🐍 RAJDIP Graph + Snake
+
+on:
+  workflow_dispatch:
+    inputs:
+      reset:
+        description: 'Reset repo history (true/false). Use true on first run if you want a clean start.'
+        required: false
+        default: 'false'
+      generate:
+        description: 'Run commit generation (true only when you want to regenerate graph)'
+        required: false
+        default: 'false'
+
+  push:
+    branches: [main]
+
+  schedule:
+    - cron: "0 0 * * *" # daily midnight UTC
+
+permissions:
+  contents: write
+
+# 🔒 Prevent parallel or overlapping runs (graph lock)
+concurrency:
+  group: rajdip-graph
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: 🧰 Checkout repository (full)
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: ⚙️ Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+
+      - name: 📦 Cache node_modules
+        uses: actions/cache@v3
+        with:
+          path: code/node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: 📦 Install dependencies
+        run: |
+          cd code
+          npm ci || npm install
+
+      - name: 🪪 Configure Git identity (for commits)
+        run: |
+          #git config --global user.name "github-actions[bot]"
+          #git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "RD BISWAS"
+          git config --global user.email "rajdippharma1989@gmail.com"
+      # ▶️ Reset history 
+      #- name: 🧹 Optional reset history (manual first run only)
+        #if: ${{ github.event.inputs.reset == 'true' }}
+        #run: |
+          #echo "⚠️ Resetting repository history..."
+          #git checkout --orphan temp_branch
+          #git add -A
+          #git commit -m "chore: reset history [skip ci]"
+          #git branch -D main || true
+          #git branch -m main
+          #git push -f origin main
+          #echo "✅ Repository history reset complete."
+
+      # ▶️ Commit generation runs ONLY when explicitly requested
+      - name: 🧠 Run RAJDIP script (creates commits)
+        if: ${{ github.event.inputs.generate == 'true' }}
+        env:
+          COMMITS_PER_BLOCK: '100'
+          TIMEZONE: 'Asia/Kolkata'
+        run: |
+          cd code
+          node index.js
+      # ▶️ Commit & push
+      - name: 📤 Commit & push generated commits
+        if: ${{ github.event.inputs.generate == 'true' }}
+        run: |
+          git add .
+          git commit -m "📊 Auto-generate commits for RAJDIP graph" || echo "No changes to commit"
+          git push origin main
+
+      - name: 🐍 Generate GitHub Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=deep_pink&color_dots=#ffb6d5,#ff66b2,#ff1a8c,#e60073,#b30059
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🚀 Deploy snake files to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: true
+          commit_message: "🐍 + RAJDIP Graph Updated [skip ci]"
