@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+coverage/
+.cache/
+.tmp/
+*.log
+
+# Environment
+.env
+.env.local
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# GitHub Actions temp
+.github/workflows/*.bak
+
+# Lockfiles (optional)
+package-lock.json
+yarn.lock
+
+# IDE/editor
+.vscode/
+.idea/
