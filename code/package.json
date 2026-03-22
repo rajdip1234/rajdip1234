@@ -1,0 +1,19 @@
+{
+  "name": "rajdip1234",
+  "version": "1.0.0",
+  "description": "GitHub contribution graph automation for RAJDIP + Snake",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "preview": "DRY_RUN=true node index.js",
+    "preview:win": "set DRY_RUN=true&&node index.js",
+    "preview:ps": "$env:DRY_RUN='true'; node index.js"
+  },
+  "dependencies": {
+    "jsonfile": "^6.2.0",
+    "moment": "^2.30.1",
+    "random": "^4.1.0",
+    "simple-git": "^3.33.0"
+  }
+}
