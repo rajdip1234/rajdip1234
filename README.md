@@ -84,7 +84,12 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-F2B544?style=for-the-badge&logo=huggingface)
+## 🧠 Current Focus
 
+- 📊 Advanced Data Analytics & Dashboarding  
+- 🤖 Machine Learning & AI Integration  
+- ☁️ Cloud Deployment (AWS, Docker)  
+- 📈 Real-world Business Data Projects  
 #### 🗄️ Databases
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-31648C?style=for-the-badge&logo=postgresql)
