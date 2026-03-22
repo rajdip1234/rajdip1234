@@ -111,15 +111,7 @@
 ![Laravel](https://img.shields.io/badge/Laravel-F9322C?style=for-the-badge&logo=laravel)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django)
 
-## 🏆 Achievements
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rajdip1234&theme=algolia&no-frame=true&margin-w=10" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=rajdip1234&show_icons=true&theme=ambient_gradient" />
-</p>
-
-## 📊 **GitHub Analytics**
 
 <!-- GitHub Stats & Most Used Languages -->
 <table align="center" width="100%" style="table-layout: fixed; margin-bottom: 20px;">
