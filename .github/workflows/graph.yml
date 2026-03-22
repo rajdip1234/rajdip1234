@@ -83,7 +83,7 @@ jobs:
       - name: 🧠 Run RAJDIP script (creates commits)
         if: ${{ github.event.inputs.generate == 'true' || github.event_name == 'push' }}
         env:
-          COMMITS_PER_BLOCK: '100'
+          COMMITS_PER_BLOCK: '200'
           TIMEZONE: 'Asia/Kolkata'
         run: |
           cd code
