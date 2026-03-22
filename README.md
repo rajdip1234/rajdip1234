@@ -27,6 +27,15 @@
 </table>
 
 ---
+---
+## 📈 Profile Metrics
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=rajdip1234&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/rajdip1234?label=Followers&style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/rajdip1234?label=Stars&style=for-the-badge" />
+</p>
+---
 ## 🚀 Freelancing, Coding & Sponsors
 
 <table>
