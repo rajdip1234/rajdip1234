@@ -114,9 +114,10 @@
 ## 🏆 Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rajdip1234&theme=algolia&no-frame=true&row=1&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=rajdip1234&theme=algolia&no-frame=true&margin-w=10" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api?username=rajdip1234&show_icons=true&theme=ambient_gradient" />
 </p>
-
 
 ## 📊 **GitHub Analytics**
 
