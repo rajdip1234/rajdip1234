@@ -27,7 +27,7 @@ rajdip1234/
    cd rajdip1234
    git clone https://github.com/rajdip1234/rajdip1234.git
 
-3. Download project files and replace as needed.
+3. Download project files and replace as needed f5rom https://github.com/rajdip1234/DATA-SCIENCE-ANALYST-ENGINEERING-MLOPS-GCP-AWS/tree/main/DEVOPS-MLOPS-GIT-AWS-PROJECTS/GIT-PROJECTS/profile-with-worflows/rajdip1234.
 
 📛 Configure Git Identity
 
@@ -59,12 +59,27 @@ npm install jsonfile moment simple-git random
 ────────────────────────────────────────────
 
 CMD:
+set DRY_RUN="true
+node index.js
+
+Or
+
+node index.js --dry(recommended)
+
+PowerShell:
+
+$env:DRY_RUN="true"
+node index.js
+
+Or
 
 node index.js --dry
 
-PowerShell:
-$env:DRY_RUN="true"; node index.js
+$env:COMMITS_PER_BLOCK="100"
+node index.js
 
+or
+node index.js --commits=100
 ────────────────────────────────────────────
 ✅ Verify Output
 ────────────────────────────────────────────
@@ -74,20 +89,38 @@ Ensure ASCII output shows:
 RD BISWAS!
 
 Increase density if needed:
-set COMMITS_PER_BLOCK=100 && node index.js
+set COMMITS_PER_BLOCK=100 
+node index.js
 
 or
 
-node index.js --commits=100
+node index.js --commits=100 (recommended)
 
 ────────────────────────────────────────────
 📤 Push Project
 ────────────────────────────────────────────
 
+cd <your-project-folder>
+
+git init
+git branch -M main
+
 git add .
-git commit -m "Initial RAJDIP Graph Automation"
+git commit -m "Initial project upload"
+
+git remote remove origin
+git remote add origin https://github.com/<your-username>/<your-repo>.git
+
+git push -f origin main
+
+🔁 For future updates
+git add .
+git commit -m "update"
 git push origin main
 
+⚠️ Important fix
+Always use branch: main
+Do NOT use master
 ────────────────────────────────────────────
 🚀 Generate Graph (UPDATED)
 ────────────────────────────────────────────
@@ -95,7 +128,7 @@ git push origin main
 1.  Run workflow:
 
 Go to:
-GitHub → Actions → **RAJDIP Graph + Snake**
+GitHub → Actions → **RAJDIP Graph + Snake** (Automated updated for every commit change)
 
 🔰 First Run (IMPORTANT):
 
